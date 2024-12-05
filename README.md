@@ -2,7 +2,7 @@
 
 In this project, I will be building an image labels generator, using Amazon Rekognition. Once built, it will be able to recognize and label images. For example, if I have a photo of a cat, Amazon Recognition will be able to identify what it is, and label the image as a cat.
 
-![Diagram]()
+![Diagram](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/ImageLableGen_AWSRekognition.png)
 
 # Steps to be preformed
 
@@ -25,12 +25,12 @@ In this project, I will be building an image labels generator, using Amazon Reko
 1. Log in to your AWS Management Console.
 2. Navigate to the Amazon S3 service from the search bar. An S3 bucket is like a virtual storage box in the cloud where you can keep your files safe and easily accessible with permissions.
 
-![S3bucket]()
+![S3bucket](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/S3bucket.png)
 
 3. Click on __Create Bucket__.
 4. I will choose a unique name for the bucket.
 
-![NameBucket]()
+![NameBucket](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/NameBucket.png)
 
 5. I will leave the default settings for the rest of the options and click __‘Create Bucket’__.
 6. I will use this bucket to store the images on which labels are to be generated. Know I'll upload some images in the S3 bucket.
@@ -41,7 +41,7 @@ In this project, I will be building an image labels generator, using Amazon Reko
 2. Click on the __‘Upload’__ button and select the images I want to analyse from my system.
 3. Click on Upload. My image has now been uploaded in the S3 bucket.
 
-![UPLOADED IMAGE]()
+![UPLOADED IMAGE](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/uploaded%20image.png)
 
 
 # Importing Libraries
@@ -149,4 +149,12 @@ if __name__ == "__main__":
 
 3. Onece the command is entered an out will show of the labels detected and their confidence levels and a pop-up screen will display the image that was uploaded to the S3 bucket with the bounding bnoxes present on the generated lables.
 
-![generated labels]()
+![generated labels](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/generated%20labels.png)
+
+That concludes this project but it can still be upgraded in a few ways such as:
+
+  * __Adding Video Label Detection__
+  * __Adding Real-Time Object Label Detection__
+  * __Analysing Facial Expressions__
+  * __Identifying Faces__
+
