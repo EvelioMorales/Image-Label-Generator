@@ -12,7 +12,7 @@ This project demonstrates how cloud-based machine learning services can be integ
 
 ## Architecture Diagram
 
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/EvelioMorales/Image-Label-Generator/blob/main/Images/ImageLableGen.png)
 
 ---
 
